@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import "../index.css";
 import ResponsivePagination from "react-responsive-pagination";
-import "react-responsive-pagination/themes/classic.css";
+import "../css/pagination.css";
 
 function Home() {
   const [currentPage, setCurrentPage] = useState(1);
